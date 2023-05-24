@@ -29,7 +29,7 @@ $check = "CREATE TABLE starwars (ID int NOT NULL AUTO_INCREMENT, Name text, API 
 
 if ($conn->query($check) === TRUE) {
 
-    echo "starwars created successfully<br>";
+    echo "starwars successfully created<br>";
 
 } else {
 
